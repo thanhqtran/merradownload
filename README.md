@@ -1,3 +1,11 @@
+# Update 2024/08/24
+
+It is recommended to use the official notebook!
+
+https://disc.gsfc.nasa.gov/information/howto?keywords=API&title=How%20to%20Use%20the%20Web%20Services%20API%20for%20Subsetting%20MERRA-2%20Data
+
+list of variables available: https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf
+
 # Update 2024/02/11
 The original script was unable to run the reading and compiling into csv files (the last chunk). It seems there are problems with the `xarray` package. This code updated that part by using `netCDF4` package instead.
 
